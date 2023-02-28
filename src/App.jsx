@@ -9,12 +9,13 @@ import Events from './components/Events';
 import Refscbc from './Refscbc'
 import Playpause from './Playpause'
 import Refsfbc from './Refsfbc'
+import Conditionalrendering from './Conditionalrendering'
 
 export default class App extends Component {
   render() {
     return (
       <>
-        <Refsfbc />
+        <Conditionalrendering />
       </>
     )
   }
