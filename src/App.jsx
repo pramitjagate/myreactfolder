@@ -10,12 +10,20 @@ import Refscbc from './Refscbc'
 import Playpause from './Playpause'
 import Refsfbc from './Refsfbc'
 import Conditionalrendering from './Conditionalrendering'
+import Box from './UIform/Box'
+import Box2 from './UIform/Box2'
+import Controlledformcbc from './forms/Controlledformcbc'
+import Controlformfbc from './forms/Controlformfbc'
 
 export default class App extends Component {
   render() {
     return (
       <>
-        <Conditionalrendering />
+        {/* <Box />
+        <Box2 /> */}
+        {/* <Controlledformcbc /> */}
+        <Controlformfbc />
+
       </>
     )
   }

@@ -1,34 +1,48 @@
 body{
-    /* background-color: black; */
+    background-color: rgb(22,111,229);
 }
-#main{
-    background-color: red;
+#box{
+    padding-top: 20px;
+    border: 1px solid black;
+    padding-left: 50px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
 }
-#mainBlock{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
+#box2{
+    padding-top: 20px;
+    border: 1px solid black;
+    padding-left: 50px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
 }
-#upper{
-    border: 5px solid black;
-    padding-left: 380px;
-    color: white;
+#login{
+    background-color: rgb(22,111,229);
+     width:200px;
+     color: white;
+     border-radius: 5px;
+     border: 1px solid rgb(22,111,229);
+    
+    }
+#fb{
+        background-color: rgb(22,111,229);
+         width:200px;
+         color: white;
+         border-radius: 5px;
+         border: 1px solid rgb(22,111,229);
+        
 }
+#go{
+     width:200px;
+     color: grey;
+     border-radius: 5px;
+     border: 1px solid grey
+    
+    }
 
-#lower{
-    border: 5px solid black;
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    width: 700px;
+#fp{
+    color: rgb(22,111,229) ;
 }
-/* button{
-    height: 100px;
-    width: 200px;
-    color: white;
-    background-color: black;
-    border: 1px solid white;
-    box-shadow:10px 10px 10px;
-    font-size: 20px;
-} */
